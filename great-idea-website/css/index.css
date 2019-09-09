@@ -72,7 +72,7 @@ body {
 }
 
 nav {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	width: 100%;
 	text-align: center;
 }
@@ -89,21 +89,22 @@ nav a {
 
 .title-section {
 	width: 100%;
-	border: 1px solid black;
-	text-align: center
+	/* border: 1px solid black; */
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
 .title {
 	font-size: 50px;
 	display: inline-block;
-	vertical-align: top;
-	border: 1px black solid;
+	/* border: 1px black solid; */
 	width: 50%;
 }
 
 button {
 	background-color: white;
-	border: solid 1px black;
+	/* border: solid 1px black; */
 	color: black;
 	padding: 10px 20px;
 	text-align: center;
@@ -114,22 +115,23 @@ button {
 .code-image {
 	display: inline-block;
 	width: 30%;
-	border: 1px solid blue;
+	padding-top: 50px;
+	/* border: 1px solid blue; */
 }
 
 .main-section {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 .main-section div {
 	display: inline-block;
-	border: 1px solid red;
-	margin: 3px;
+	/* border: 1px solid red; */
+	margin: 7px;
 	width: 48%;
 }
 
 .main-section div.second-row {
-	border: 1px solid green;
+	/* border: 1px solid green; */
 	width: 100%;
 }
 
@@ -138,7 +140,7 @@ div.second-row img {
 }
 
 .main-section div.third-row {
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 	width: 30%;
 	display: inline-block;
 }
